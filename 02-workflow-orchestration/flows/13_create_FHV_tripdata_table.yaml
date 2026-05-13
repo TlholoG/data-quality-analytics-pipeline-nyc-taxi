@@ -1,0 +1,58 @@
+id: 13_create_FHV_tripdata_table
+namespace: zoomcamp
+description: |
+  this flow loads FHV trip data from the NYC TLC data repository, uploads it to GCS and then creates an external table in BigQuery. The
+  CSV data used here comes from: https://github.com/DataTalksClub/nyc-tlc-data/releases/tag/fhv
+
+inputs:
+  - id: taxi
+    type: SELECT
+    displayName: Select taxi type
+    values: [yellow, green,fhv]
+    defaults: green
+
+  - id: year
+    type: SELECT
+    displayName: Select year
+    values: ["2019", "2020"]
+    defaults: "2019"
+    allowCustomValue: true # allows you to type 2021 from the UI for the homework 🤗
+
+  - id: month
+    type: SELECT
+    displayName: Select month
+    values: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+    defaults: "01"
+
+variables:
+  file: "{{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv"
+  gcs_file: "gs://{{kv('GCP_BUCKET_NAME')}}/{{vars.file}}"
+  table: "{{kv('GCP_ANALYTICS_DATAST')}}.{{inputs.taxi}}_tripdata_{{inputs.year}}_{{inputs.month}}"
+  data: "{{outputs.extract.outputFiles[inputs.taxi ~ '_tripdata_' ~ inputs.year ~ '-' ~ inputs.month ~ '.csv']}}"
+
+tasks:
+      - id: bq_yellow_tripdata
+        type: io.kestra.plugin.gcp.bigquery.Query
+        sql: |
+          CREATE TABLE IF NOT EXISTS `{{kv('GCP_PROJECT_ID')}}.{{kv('GCP_ANALYTICS_DATAST')}}.fhv_tripdata`
+          (
+              dispatching_base_num STRING OPTIONS (description = 'The dispatching base number'),
+              pickup_datetime TIMESTAMP OPTIONS (description = 'The date and time when the meter was engaged'),
+              dropoff_datetime TIMESTAMP OPTIONS (description = 'The date and time when the meter was disengaged'),
+              PULocationID STRING OPTIONS (description = 'TLC Taxi Zone in which the taximeter was engaged'),
+              DOLocationID STRING OPTIONS (description = 'TLC Taxi Zone in which the taximeter was disengaged'),
+              SR_Flag STRING OPTIONS(),
+              Affiliated_base_number STRING OPTIONS(description = 'The Affiliated base number')
+          )
+          PARTITION BY DATE(pickup_datetime);
+
+
+
+pluginDefaults:
+  - type: io.kestra.plugin.gcp
+    values:
+      serviceAccount: "{{secret('GCP_SERVICE_ACCOUNT')}}"
+      projectId: "{{kv('GCP_PROJECT_ID')}}"
+      location: "{{kv('GCP_LOCATION')}}"
+      bucket: "{{kv('GCP_BUCKET_NAME')}}"
+
