@@ -434,5 +434,60 @@ Which of the following is the VPN protecting?
 
 B. Data in transit
 
+101) 
+Which biometric error would allow an unauthorized user to access a system?
+
+A. False acceptance
+
+
+102) 
+A company is auditing the manner in which its European customers' personal information is handled. 
+Which of the following should the company consult?
+
+A. GDPR (General Data Protection Regulation) is a regulation in EU law on data protection and privacy.
+
+103) 
+Which of the following describes the exploitation of an interactive process to gain access to restricted areas?
+
+C. Privilege escalation
+
+104) 
+An organization is planning to open other data centers to sustain operations in the event of a natural disaster. 
+Which of the following considerations would BEST support the organization's resiliency?
+
+A. Geographic dispersal
+
+105) An organization has decided to purchase an insurance policy because a risk assessment determined that
+ the cost to remediate the risk is greater than the five- year cost of the insurance policy. 
+The organization is enabling risk:
+
+D. transference.
+
+106) The Chief Information Security Officer (CISO) requested a report on potential areas of improvement following a security incident.
+ Which of the following incident response processes is the CISO requesting?
+
+A .Lessons learned
+
+107) 
+A company is providing security awareness training regarding the importance of not forwarding social media messages from unverified sources. 
+Which of the following risks would this training help to prevent?
+
+A. Hoaxes
+
+108) A security analyst is receiving numerous alerts reporting that the response time of an internet-facing application has been degraded. 
+However, the internal network performance was not degraded. Which of the following MOST likely explains this behavior?
+
+C. DDoS attack
+
+109) 
+Which of the following will increase cryptographic security?
+
+A. High data entropy
+
+110) 
+Which of the following statements BEST describes zero-day exploits?
+
+C. A zero-day exploit is initially undetectable, and no patch for it exists.
+
 
 """

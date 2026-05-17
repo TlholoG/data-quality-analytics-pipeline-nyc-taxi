@@ -51,3 +51,9 @@ Core principles ensuring data security and system reliability.
 
 CERT: Computer Emergency Response Team
 Organization that responds to and manages cybersecurity incidents.
+
+CISO: Chief Information Security Officer
+Senior executive responsible for an organization's information security strategy and implementation.
+
+DDoS: Distributed Denial of Service
+A cyber attack where multiple compromised systems flood a target with traffic, overwhelming it and causing service disruption.
