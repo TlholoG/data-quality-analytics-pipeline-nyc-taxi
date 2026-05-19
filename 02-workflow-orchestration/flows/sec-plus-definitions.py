@@ -61,5 +61,6 @@ A cyber attack where multiple compromised systems flood a target with traffic, o
 APT: Advanced Persistent Threat
 A prolonged and targeted cyber attack where an intruder gains access to a network and remains undetected for an extended period, often to steal data or cause damage.
 
-
+UBA: User Behavior Analytics
+A cybersecurity process that analyzes user behavior patterns to detect anomalies that may indicate insider threats or compromised accounts.
 

@@ -1,4 +1,4 @@
-"""
+""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -544,6 +544,65 @@ A security analyst has identified malware spreading through the corporate networ
 Which of the following should the analyst do NEXT?
 
 B. Attempt to quarantine all infected hosts to limit further spread.
+
+121) 
+A recent security breach exploited software vulnerabilities in the firewall and within the network management solution. 
+Which of the following will MOST likely be used to identify when the breach occurred through each device?
+
+A. SIEM correlation dashboards
+
+122) 
+A cloud service provider has created an environment where customers can connect existing local networks to the cloud for additional computing resources and 
+block internal HR applications from reaching the cloud. 
+Which of the following cloud models is being used?
+
+C. Hybrid
+
+123) 
+A security analyst is working on a project to implement a solution that monitors network communications and 
+provides alerts when abnormal behavior is detected.Which of the following is the security analyst MOST likely implementing?
+
+B. User behavior analysis
+
+124) 
+Data exfiltration analysis indicates that an attacker managed to download system configuration notes from a web server. 
+The web-server logs have been deleted, but analysts have determined that the system configuration notes were stored in the database administrator's folder on the web server. 
+Which of the following attacks explains what occurred? (Choose two.)
+
+B. Directory traversal
+D. Privilege escalation
+
+125) 
+A junior security analyst is conducting an analysis after passwords were changed on multiple accounts without users' interaction. 
+The SIEM have multiple login entries with the following text: 
+suspicious event - user: scheduledtasks successfully authenticate on AD on abnormal time 
+suspicious event - user: scheduledtasks failed to execute c:\weekly_checkups\amazing-3rdparty-domain-assessment.py 
+suspicious event - user: scheduledtasks failed to execute c:\weekly_checkups\secureyourAD-3rdparty-compliance.sh 
+suspicious event - user: scheduledtasks successfully executed c:\weekly_checkups\amazing-3rdparty-domain-assessment.py 
+Which of the following is the MOST likely attack conducted on the environment?
+
+A. Malicious script
+
+126) 
+A customer service representative reported an unusual text message that was sent to the help desk. 
+The message contained an unrecognized invoice number with a large balance due and a link to click for more details. 
+Which of the following BEST describes this technique?
+
+D. Smishing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
