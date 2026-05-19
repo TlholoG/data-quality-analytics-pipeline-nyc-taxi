@@ -1,4 +1,4 @@
-""
+""""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -590,24 +590,49 @@ Which of the following BEST describes this technique?
 
 D. Smishing
 
+127) 
+Which of the following actions would be recommended to improve an incident response process?
 
+A. Train the team to identify the difference between events and incidents.
 
+128) 
+A cybersecurity administrator needs to implement a Layer 7 security control on a network and block potential attacks. 
+Which of the following can block an attack atLayer 7? (Choose two.)
 
+B. NIPS (Network Intrusion Prevention System)
+D. WAF (Web Application Firewall)
 
+129) 
+A business operations manager is concerned that a PC that is critical to business operations will have a costly hardware failure soon. 
+The manager is looking for options to continue business operations without incurring large
 
+B. Perform a physical-to-virtual migration.
 
+130) 
+An organization has activated an incident response plan due to a malware outbreak on its network. 
+The organization has brought in a forensics team that has identified an internet-facing Windows server as the likely point of initial compromise. 
+The malware family that was detected is known to be distributed by manually logging on to servers and running the malicious code. 
+Which of the following actions would be BEST to prevent reinfection from the infection vector?
 
+130) 
+An organization has activated an incident response plan due to a malware outbreak on its network. 
+The organization has brought in a forensics team that has identified an internet-facing Windows server as the likely point of initial compromise. 
+The malware family that was detected is known to be distributed by manually logging on to servers and running the malicious code. 
+Which of the following actions would be BEST to prevent reinfection from the infection vector?
 
+D. Block port 3389 inbound from untrusted networks.
 
+131) 
+Which of the following uses SAML for authentication?
 
+B. Federation
 
+132) 
+The SOC for a large MSSP is meeting to discuss the lessons learned from a recent incident that took much too long to resolve. 
+This type of incident has become more common in recent weeks and is consuming large amounts of the analysts' time due to manual tasks being performed. 
+Which of the following solutions should the SOC consider to BEST improve its response time?
 
-
-
-
-
-
-
+C. Implement a SOAR with customizable playbooks.
 
 
 
