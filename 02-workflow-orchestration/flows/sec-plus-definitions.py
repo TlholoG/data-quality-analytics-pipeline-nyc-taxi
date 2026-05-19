@@ -103,3 +103,32 @@ A set of tools and processes that enable organizations to collect security data,
 
 MSSP: Managed Security Service Provider
 A third-party company that provides outsourced monitoring and management of security devices and systems.
+
+PKI: Public Key Infrastructure
+A framework for managing digital certificates and public-key encryption, enabling secure communication and authentication over networks.
+
+VDI: Virtual Desktop Infrastructure
+A technology that allows users to access a desktop environment hosted on a centralized server, providing flexibility and security for remote work.
+
+HIPS: Host-based Intrusion Prevention System
+A security system that monitors and analyzes the internals of a computing system for signs of malicious activity or policy violations, and can take action to prevent potential threats.
+
+FIM: File Integrity Monitoring
+A security process that monitors and detects changes to files, helping to identify unauthorized modifications that may indicate a security breach.
+
+TPM: Trusted Platform Module
+A hardware chip that securely stores encryption keys and provides cryptographic functions, often used to enhance security in computing devices.
+
+S/MIME: Secure/Multipurpose Internet Mail Extensions
+A standard for public key encryption and signing of MIME data, commonly used for securing email communications.
+
+LDAPS: Lightweight Directory Access Protocol over SSL/TLS
+A version of the Lightweight Directory Access Protocol (LDAP) that uses SSL/TLS for secure communication over the internet.
+
+SSL/TLS: Secure Sockets Layer / Transport Layer Security
+Cryptographic protocols that provide secure communication over a computer network, with TLS being the successor to SSL.
+
+
+
+
+

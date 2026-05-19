@@ -634,12 +634,127 @@ Which of the following solutions should the SOC consider to BEST improve its res
 
 C. Implement a SOAR with customizable playbooks.
 
+133) Business partners are working on a security mechanism to validate transactions securely. 
+The requirement is for one company to be responsible for deploying a trusted solution that will register and issue artifacts used to sign,
+ encrypt, and decrypt transaction files. 
+Which of the following is the BEST solution to adopt?
+
+A. PKI (Public Key Infrastructure) is a framework for managing digital certificates and public-key encryption.
+
+134) A security analyst has been asked by the Chief Information Security Officer to: 
+-develop a secure method of providing centralized management of infrastructure 
+-reduce the need to constantly replace aging end user machines 
+-provide a consistent user desktop experienceWhich of the following BEST meets these requirements?
+
+C. VDI
+
+135) 
+Which of the following terms describes a broad range of information that is sensitive to a specific organization?
+
+C. Proprietary
+
+136) 
+A security manager has tasked the security operations center with locating all web servers that respond to an unsecure protocol. 
+Which of the following commands could an analyst run to find the requested servers?
+
+B. nmap -p 80 10.10.10.0/24
 
 
+137) 
+Which of the following is a reason to publish files' hashes?
+
+A. To validate the integrity of the files
+
+138)
+A company recently experienced an inside attack using a corporate machine that resulted in data compromise. 
+Analysis indicated an unauthorized change to the software circumvented technological protection measures. 
+The analyst was tasked with determining the best method to ensure the integrity of the systems remains intact and local and remote boot attestation can take place. 
+Which of the following would provide the BEST solution?
+
+139) A user enters a username and a password at the login screen for a web portal. 
+A few seconds later the following message appears on the screen:Please use a combination of numbers, special characters,
+ and letters in the password field.
+Which of the following concepts does this message describe?
+
+A. Password complexity
+
+140) 
+Which of the following would be indicative of a hidden audio file found inside of a piece of source code?
+
+A. Steganography
+
+141) 
+An administrator needs to protect user passwords and has been advised to hash the passwords. 
+Which of the following BEST describes what the administrator is being advised to do?
+
+A. Perform a mathematical operation on the passwords that will convert them into unique strings.
+
+142) 
+A security engineer is building a file transfer solution to send files to a business partner. 
+The users would like to drop off the files in a specific directory and have the server send the file to the business partner. 
+The connection to the business partner is over the internet and needs to be secure. 
+Which of the following can be used?
+
+C. SSH
+
+143) 
+Which of the following can be used by a monitoring tool to compare values and detect password leaks without providing the actual credentials?
+
+A. Hashing
+
+144) 
+Several attempts have been made to pick the door lock of a secure facility. 
+As a result, the security engineer has been assigned to implement a stronger preventative access control. 
+Which of the following would BEST complete the engineer's assignment?
+
+A. Replacing the traditional key with an RFID key
 
 
+145) 
+Which of the following is an effective tool to stop or prevent the exfiltration of data from a network?
 
+A. DLP (Data Loss Prevention) is a strategy for preventing sensitive data from leaving the network.
 
+146) A company wants to simplify the certificate management process. 
+The company has a single domain with several dozen subdomains, all of which are publicly accessible on the internet. 
+Which of the following BEST describes the type of certificate the company should implement?
+
+B. Wildcard certificate
+
+147) 
+A report delivered to the Chief Information Security Officer (CISO) shows that some user credentials could be exfiltrated. 
+The report also indicates that users tend to choose the same credentials on different systems and applications. 
+Which of the following policies should the CISO use to prevent someone from using the exfiltrated credentials?
+
+A. MFA (Multi-Factor Authentication) requires users to provide multiple forms of verification, making it more difficult for attackers to use stolen credentials.
+
+148) 
+A company is implementing a DLP solution on the file server. 
+The file server has PII, financial information, and health information stored on it. 
+Depending on what type of data that is hosted on the file server, the company wants different DLP rules assigned to the data. 
+Which of the following should the company do to help accomplish this goal?
+
+A. Classify the data.
+
+149) 
+A security analyst is reviewing application logs to determine the source of a breach and locates the 
+following log: https://www.comptia.com/login.php?id='%20or%20'1'1='1 
+Which of the following has been observed?
+
+C. SQLi is a code injection technique that exploits vulnerabilities in an application's software by inserting malicious SQL statements into input fields.
+
+150) 
+Which of the following tools is effective in preventing a user from accessing unauthorized removable media?
+
+A. USB data blocker
+
+151) 
+A user is attempting to navigate to a website from inside the company network using a desktop. 
+When the user types in the URL, https://www.site.com, the user is presented with a certificate mismatch warning from the browser. 
+The user does not receive a warning when visiting http://www.anothersite.com. 
+Which of the following describes this attack?
+
+A. On-path attack , Another name for man-in-the-middle
 
 
 
