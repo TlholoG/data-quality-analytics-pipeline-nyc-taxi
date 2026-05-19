@@ -489,5 +489,75 @@ Which of the following statements BEST describes zero-day exploits?
 
 C. A zero-day exploit is initially undetectable, and no patch for it exists.
 
+111) 
+A company wants to restrict emailing of PHI documents. The company is implementing a DLP solution. 
+In order to restrict PHI documents, which of the following should be performed FIRST?
+
+C. Classification
+
+112) 
+Which of the following describes the continuous delivery software development methodology?
+
+D. Agile
+
+113) 
+A company suspects that some corporate accounts were compromised. 
+The number of suspicious logins from locations not recognized by the users is increasing.
+Employees who travel need their accounts protected without the risk of blocking legitimate login requests that may be made over new sign-in properties. 
+Which of the following security controls can be implemented?
+
+A. Enforce MFA when an account request reaches a risk threshold.
+
+114) 
+An organization wants to participate in threat intelligence information sharing with peer groups. 
+Which of the following would MOST likely meet the organization's requirement
+
+D.Implement a TAXII server.
+
+115) 
+Which of the following is the GREATEST security concern when outsourcing code development to third-party contractors for an internet-facing application?
+
+C. Unknown backdoor
+
+116) 
+An amusement park is implementing a biometric system that validates customers' fingerprints to ensure they are not sharing tickets. The park's owner values customers above all and would prefer customers' convenience over security. 
+For this reason, which of the following features should the security team prioritize FIRST?
+
+C. Low FRR (False Rejection Rate)
+
+117) 
+Which of the following organizations sets frameworks and controls for optimal security configuration on systems?
+
+D. NIST (National Institute of Standards and Technology) develops cybersecurity standards, guidelines, and best practices.
+
+118) 
+An organization discovered files with proprietary financial data have been deleted. 
+The files have been recovered from backup, but every time the Chief FinancialOfficer logs in to the file server, the same files are deleted again. 
+No other users are experiencing this issue. 
+Which of the following types of malware is MOST likely causing this behavior?
+
+A.
+Logic bomb
+
+119) 
+A security analyst has identified malware spreading through the corporate network and has activated the CSIRT. 
+Which of the following should the analyst do NEXT?
+
+B. Attempt to quarantine all infected hosts to limit further spread.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 """

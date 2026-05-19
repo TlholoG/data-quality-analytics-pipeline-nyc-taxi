@@ -57,3 +57,9 @@ Senior executive responsible for an organization's information security strategy
 
 DDoS: Distributed Denial of Service
 A cyber attack where multiple compromised systems flood a target with traffic, overwhelming it and causing service disruption.
+
+APT: Advanced Persistent Threat
+A prolonged and targeted cyber attack where an intruder gains access to a network and remains undetected for an extended period, often to steal data or cause damage.
+
+
+
