@@ -131,4 +131,23 @@ Cryptographic protocols that provide secure communication over a computer networ
 
 NIC Teaming: A technique used to combine multiple network interfaces for increased bandwidth and redundancy.
 
+CPO: Chief Privacy Officer
+A senior executive responsible for overseeing an organization's data privacy strategy and ensuring compliance with privacy regulations.
 
+XSRF: Cross-Site Request Forgery
+A type of attack where a malicious website tricks a user's browser into performing an unwanted action on a different site where the user is authenticated.
+
+XSS: Cross-Site Scripting
+A type of attack where an attacker injects malicious scripts into content from otherwise trusted websites, which can then be executed in the context of a user's browser.
+
+SPIM: Spam over Instant Messaging
+A type of spam that is sent through instant messaging platforms, often containing unsolicited messages or links.
+
+AES: Advanced Encryption Standard
+A widely used symmetric encryption algorithm that provides strong security for data protection.
+
+EAP: Extensible Authentication Protocol
+A framework for authentication that supports multiple methods, commonly used in wireless networks.
+
+TLS: Transport Layer Security
+A cryptographic protocol that provides secure communication over a computer network, often used to secure web traffic (HTTPS) and other forms of data transmission.

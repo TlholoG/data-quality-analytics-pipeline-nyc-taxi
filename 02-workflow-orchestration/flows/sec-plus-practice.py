@@ -1,4 +1,4 @@
-""
+"""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -764,9 +764,50 @@ Which of the following would BEST meet the requirements?
 
 A. Reverse proxy
 
+153) 
+Which of the following describes a social engineering technique that seeks to exploit a person's sense of urgency?
 
+A. A phishing email stating a cash settlement has been awarded but will expire soon
 
+154) An audit identified PII being utilized in the development environment of a critical application. 
+The Chief Privacy Officer (CPO) is adamant that this data must be removed; however, the developers are concerned that 
+without real data they cannot perform functionality tests and search for specific data. 
+Which of the following should a security professional implement to BEST satisfy both the CPO's and the development team's requirements?
 
+A. A phishing email stating a cash settlement has been awarded but will expire soon
+
+154) [Verified]
+An audit identified PII being utilized in the development environment of a critical application. 
+The Chief Privacy Officer (CPO) is adamant that this data must be removed; however, the developers are concerned that without real data 
+they cannot perform functionality tests and search for specific data. 
+Which of the following should a security professional implement to BEST satisfy both the CPO's and the development team's requirements?
+
+C. Data masking
+
+155) 
+A forensics investigator is examining a number of unauthorized payments that were reported on the company's website. 
+Some unusual log entries show users received an email for an unwanted mailing list and clicked on a link to attempt to unsubscribe. 
+One of the users reported the email to the phishing team, and the forwarded email revealed the link to be: 
+<a href="https://www.company.com/payto.do?routing=00001111&acct=22223334&amount=250">Click here to unsubscribe</a> 
+Which of the following will the forensics investigator MOST likely determine has occurred?
+
+D. XSRF "Cross site request forgery (CSRF)"
+
+156) 
+Which of the following are common VoIP-associated vulnerabilities? (Choose two.)
+
+A.SPIM
+B.Vishing
+
+157) 
+A security engineer is deploying a new wireless network for a company. 
+The company shares office space with multiple tenants. 
+Which of the following should the engineer configure on the wireless network to ensure that confidential data is not exposed to unauthorized users?
+
+A.EAP
+B.TLS
+C.HTTPS
+D.AES
 
 
 
