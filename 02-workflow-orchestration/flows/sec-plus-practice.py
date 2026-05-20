@@ -756,6 +756,25 @@ Which of the following describes this attack?
 
 A. On-path attack , Another name for man-in-the-middle
 
+152) A Chief Security Officer is looking for a solution that can provide increased scalability and flexibility for back-end infrastructure, 
+allowing it to be updated and modified without disruption to services. 
+The security architect would like the solution selected to reduce the back-end server resources and has highlighted that session persistence 
+is not important for the applications running on the back-end servers. 
+Which of the following would BEST meet the requirements?
+
+A. Reverse proxy
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

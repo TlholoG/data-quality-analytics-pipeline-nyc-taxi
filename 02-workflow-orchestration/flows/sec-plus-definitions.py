@@ -129,6 +129,6 @@ SSL/TLS: Secure Sockets Layer / Transport Layer Security
 Cryptographic protocols that provide secure communication over a computer network, with TLS being the successor to SSL.
 
 
-
+NIC Teaming: A technique used to combine multiple network interfaces for increased bandwidth and redundancy.
 
 
