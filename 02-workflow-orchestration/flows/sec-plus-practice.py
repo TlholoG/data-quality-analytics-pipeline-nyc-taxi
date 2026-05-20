@@ -1,4 +1,4 @@
-"""
+""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -809,7 +809,16 @@ B.TLS
 C.HTTPS
 D.AES
 
+158) 
+The Chief Compliance Officer from a bank has approved a background check policy for all new hires. Which of the following is the policy MOST likely protecting against?
 
+B. Hiring an employee who has been convicted of theft to adhere to industry compliance
+
+159) [Verified]
+An engineer recently deployed a group of 100 web servers in a cloud environment as per the security policy, 
+all web-server ports except 443 should be disabled.Which of the following can be used to accomplish this task?
+
+C. Host-based firewall
 
 
 

@@ -151,3 +151,6 @@ A framework for authentication that supports multiple methods, commonly used in 
 
 TLS: Transport Layer Security
 A cryptographic protocol that provides secure communication over a computer network, often used to secure web traffic (HTTPS) and other forms of data transmission.
+
+SWG: Secure Web Gateway
+A security solution that filters unwanted software/malware from user-initiated web traffic and enforces corporate and regulatory policy compliance.
