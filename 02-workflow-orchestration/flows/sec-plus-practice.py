@@ -820,7 +820,12 @@ all web-server ports except 443 should be disabled.Which of the following can be
 
 C. Host-based firewall
 
+160) [Verified]
+A technician was dispatched to complete repairs on a server in a data center. 
+While locating the server, the technician entered a restricted area without authorization. 
+Which of the following security controls would BEST prevent this in the future?
 
+D.Enforce escorts to monitor all visitors
 
 
 
