@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: staging
-    database: kestra-sandbox-487614
+    database: zoom-camp-495319
     schema: nytaxi
 
     tables:

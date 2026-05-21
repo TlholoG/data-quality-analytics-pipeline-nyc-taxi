@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('staging', 'green_tripdata') }}
+    select * from {{ source('staging', 'yellow_tripdata') }}
 
 ),
 
@@ -12,25 +12,26 @@ renamed as (
         unique_row_id,
         filename,
         cast(vendorid as integer) as vendor_id,
-        cast(lpep_pickup_datetime as timestamp) as pickup_datetime,  
-        cast(lpep_dropoff_datetime as timestamp) as dropoff_datetime,
-        store_and_fwd_flag,
-        {{ safe_cast('ratecodeid', 'integer') }} as rate_code_id,
-        cast(pulocationid as integer) as pickup_location_id,
-        cast(dolocationid as integer) as dropoff_location_id,
+        cast(tpep_pickup_datetime as timestamp) as pickup_datetime, 
+        cast(tpep_dropoff_datetime as timestamp) as dropoff_datetime,               
         passenger_count,
         trip_distance,
+        cast(ratecodeid as integer) as rate_code_id,
+        store_and_fwd_flag,
+        cast(pulocationid as integer) as pickup_location_id,
+        cast(dolocationid as integer) as dropoff_location_id,
+        payment_type,
         fare_amount,
         extra,
         mta_tax,
         tip_amount,
         tolls_amount,
-        ehail_fee,
+        Null as ehail_fee,
         improvement_surcharge,
         total_amount,
-        payment_type,
-        trip_type,
+        Null as trip_type,
         congestion_surcharge
+        
 
     from source
 
