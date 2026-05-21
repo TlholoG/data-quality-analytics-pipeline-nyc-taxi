@@ -1,4 +1,4 @@
-"""
+""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -832,6 +832,20 @@ Which of the following would BEST provide a systems administrator with the abili
 and manage permissions and policies based on location, role, and service level?
 
 A. Standard naming conventions
+
+162) 
+Which of the following would detect intrusions at the perimeter of an airport?
+
+C.Motion sensors
+
+163) 
+A security analyst is concerned about critical vulnerabilities that have been detected on some applications running inside containers. 
+Which of the following is theBEST remediation strategy?
+
+A.Update the base container Image and redeploy the environment. 
+
+
+
 
 
 
