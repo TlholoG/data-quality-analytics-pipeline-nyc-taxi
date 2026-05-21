@@ -1,4 +1,4 @@
-""
+"""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
