@@ -1,4 +1,4 @@
-""
+"""
 76)[Verified]
 Select the appropriate attack and remediation from each drop-down list to label the corresponding attack with its remediation.
 
@@ -827,6 +827,11 @@ Which of the following security controls would BEST prevent this in the future?
 
 D.Enforce escorts to monitor all visitors
 
+161) [Verified]
+Which of the following would BEST provide a systems administrator with the ability to more efficiently identify systems
+and manage permissions and policies based on location, role, and service level?
+
+A. Standard naming conventions
 
 
 
