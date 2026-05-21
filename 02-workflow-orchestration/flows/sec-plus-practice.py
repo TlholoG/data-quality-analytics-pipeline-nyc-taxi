@@ -844,10 +844,32 @@ Which of the following is theBEST remediation strategy?
 
 A.Update the base container Image and redeploy the environment. 
 
+164) 
+A security analyst receives an alert from the company's SIEM that anomalous activity is coming from a local source IP address of 192.168.34.26. 
+The ChiefInformation Security Officer asks the analyst to block the originating source. Several days later, 
+another employee opens an internal ticket stating that vulnerability scans are no longer being performed properly. 
+The IP address the employee provides is 192.168.34.26. Which of the following describes this type of alert?
 
+C.False positive
 
+165) A security analyst wants to reference a standard to develop a risk management program. 
+Which of the following is the BEST source for the analyst to use?
 
+B. ISO 31000
 
+166) 
+A security analyst is investigating some users who are being redirected to a fake website that resembles www.comptia.org. 
+The following output was found on the naming server of the organization:
+
+Name      Type  Data
+www       A     192.168.1.10
+server1   A     10.10.10.10
+server2   A     10.10.10.11
+file      A     10.10.10.12
+
+Which of the following attacks has taken place?
+
+D. DNS poisoning
 
 
 
