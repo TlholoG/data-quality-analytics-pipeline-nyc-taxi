@@ -29,7 +29,7 @@ renamed as (
         improvement_surcharge,
         total_amount,
         payment_type,
-        trip_type,
+        cast(trip_type as integer) as trip_type,
         congestion_surcharge
 
     from source

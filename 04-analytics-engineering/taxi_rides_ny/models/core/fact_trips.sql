@@ -34,6 +34,8 @@ trips_unioned as (
         tolls_amount,
         improvement_surcharge,
         total_amount,
+        trip_type,
+        service_type,
         payment_type,
         congestion_surcharge,
     from green_tripdata
@@ -57,6 +59,8 @@ trips_unioned as (
         tolls_amount,
         improvement_surcharge,
         total_amount,
+        trip_type,
+        service_type,
         payment_type,
         congestion_surcharge,
     from yellow_tripdata
