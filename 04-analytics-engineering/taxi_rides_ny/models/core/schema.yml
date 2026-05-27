@@ -1,0 +1,190 @@
+
+models:
+  - name: dim_zones
+    description: "Taxi zone dimension table with location details"
+    columns:
+      - name: location_id
+        data_type: int64
+        description: "Unique identifier for each taxi zone"
+
+      - name: borough
+        data_type: string
+        description: " NYC borough name"
+
+      - name: zone
+        data_type: string
+        description: "Specific zone name within the borough"
+
+      - name: service_zone
+        data_type: string
+        description: "Service zone classification"
+
+  - name: dm_monthly_zone_revenue
+    description: "Monthly revenue aggregation by pickup zone and service type for business reporting"
+    columns:
+      - name: revenue_zone
+        data_type: string
+        description: "Pickup zone where revenue was generated"
+
+      - name: revenue_month
+        data_type: timestamp
+        description: "Month for revenue aggregation"
+
+      - name: service_type
+        data_type: string
+        description: "Service type (Green or Yellow)"
+
+      - name: revenue_monthly_fare
+        data_type: numeric
+        description: "Monthly sum of total fares"
+
+      - name: revenue_monthly_extra
+        data_type: numeric
+        description: ""
+
+      - name: revenue_monthly_mta_tax
+        data_type: numeric
+        description: ""
+
+      - name: revenue_monthly_tip_amount
+        data_type: numeric
+        description: ""
+
+      - name: revenue_monthly_tolls_amount
+        data_type: numeric
+        description: ""
+
+      - name: revenue_monthly_improvement_surcharge
+        data_type: numeric
+        description: ""
+
+      - name: revenue_monthly_total_amount
+        data_type: numeric
+        description: ""
+
+      - name: total_monthly_trips
+        data_type: int64
+        description: "Count of trips in the month"
+
+      - name: avg_monthly_passenger_count
+        data_type: float64
+        description: ""
+
+      - name: avg_monthly_trip_distance
+        data_type: numeric
+        description: ""
+
+  - name: fact_trips
+    description: ""
+    columns:
+      - name: unique_row_id
+        data_type: bytes
+        description: "Unique trip identifier"
+
+      - name: filename
+        data_type: string
+        description: ""
+
+      - name: vendor_id
+        data_type: int64
+        description: "Taxi technology provider"
+
+      - name: pickup_datetime
+        data_type: timestamp
+        description: "Timestamp when meter was engaged"
+
+      - name: dropoff_datetime
+        data_type: timestamp
+        description: "Timestamp when meter was disengaged"
+
+      - name: store_and_fwd_flag
+        data_type: string
+        description: "Trip record stored in vehicle memory (Y/N)"
+
+      - name: rate_code_id
+        data_type: int64
+        description: "Final rate code"
+
+      - name: pickup_location_id
+        data_type: int64
+        description: "TLC Taxi Zone where trip started"
+
+      - name: dropoff_location_id
+        data_type: int64
+        description: ""
+
+      - name: passenger_count
+        data_type: int64
+        description: "Number of passengers"
+
+      - name: trip_distance
+        data_type: numeric
+        description: "Trip distance in miles"
+
+      - name: fare_amount
+        data_type: numeric
+        description: "Time and distance fare"
+
+      - name: extra
+        data_type: numeric
+        description: "Miscellaneous extras and surcharges"
+
+      - name: mta_tax
+        data_type: numeric
+        description: "MTA tax"
+
+      - name: tip_amount
+        data_type: numeric
+        description: "Tip amount (credit card only)"
+
+      - name: tolls_amount
+        data_type: numeric
+        description: "Total tolls paid"
+
+      - name: improvement_surcharge
+        data_type: numeric
+        description: "Improvement surcharge"
+
+      - name: total_amount
+        data_type: numeric
+        description: "Total amount charged"
+
+      - name: trip_type
+        data_type: int64
+        description: "Trip type (1=Street-hail, 2=Dispatch)"
+
+      - name: service_type
+        data_type: string
+        description: "Type of taxi service (Green or Yellow)"
+
+      - name: payment_type
+        data_type: int64
+        description: "Payment method code"
+
+      - name: congestion_surcharge
+        data_type: numeric
+        description: ""
+
+      - name: pickup_location_id_dim
+        data_type: int64
+        description: ""
+
+      - name: pickup_borough
+        data_type: string
+        description: "NYC borough where trip started"
+
+      - name: pickup_zone_name
+        data_type: string
+        description: "Specific zone where trip started"
+
+      - name: dropoff_location_id_dim
+        data_type: int64
+        description: "TLC Taxi Zone where trip ended"
+
+      - name: dropoff_borough
+        data_type: string
+        description: "NYC borough where trip ended"
+
+      - name: dropoff_zone_name
+        data_type: string
+        description: "Specific zone where trip ended"
