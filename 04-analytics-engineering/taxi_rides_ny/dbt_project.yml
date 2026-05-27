@@ -3,7 +3,7 @@
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'taxi_rides_ny'
-version: '1.0.0'
+version: 2
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'taxi_rides_ny'
@@ -32,5 +32,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   taxi_rides_ny:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    core:
       +materialized: view
+
+    staging:
+      +materialized: view
+
+vars: 
+  environment_target: 'dev'
+  payment_type_values: [1, 2, 3, 4, 5, 6]
