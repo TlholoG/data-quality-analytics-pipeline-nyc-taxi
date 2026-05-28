@@ -37,7 +37,7 @@ trips_unioned as (
         trip_type,
         service_type,
         payment_type,
-        congestion_surcharge,
+        congestion_surcharge
     from green_tripdata
     union all
     select  
@@ -62,7 +62,7 @@ trips_unioned as (
         trip_type,
         service_type,
         payment_type,
-        congestion_surcharge,
+        congestion_surcharge
     from yellow_tripdata
 ),
 dim_zones as (
@@ -74,12 +74,12 @@ select
     t.*,
 
     -- pickup zone columns
-    pickup_zone.location_id as pickup_location_id,
+    pickup_zone.location_id as pickup_location_id_dim,
     pickup_zone.borough as pickup_borough,
     pickup_zone.zone as pickup_zone_name,
 
     -- dropoff zone columns
-    dropoff_zone.location_id as dropoff_location_id,
+    dropoff_zone.location_id as dropoff_location_id_dim,
     dropoff_zone.borough as dropoff_borough,
     dropoff_zone.zone as dropoff_zone_name
 
