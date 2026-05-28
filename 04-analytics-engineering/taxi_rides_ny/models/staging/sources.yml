@@ -1,1 +1,21 @@
 version: 2
+
+
+sources:
+  - name: staging
+    database: zoom-camp-495319
+    schema: nytaxi
+
+    tables:
+        - name: green_tripdata
+          config:
+            loaded_at_field: lpep_pickup_datetime            
+              
+        - name: yellow_tripdata
+          config:
+            loaded_at_field: tpep_pickup_datetime
+
+    config:
+      freshness:
+        warn_after: {count: 24, period: hour}
+        error_after: {count: 48, period: hour}
