@@ -37,7 +37,7 @@ trips_unioned as (
         trip_type,
         service_type,
         payment_type,
-        congestion_surcharge,
+        congestion_surcharge
     from green_tripdata
     union all
     select  
@@ -62,7 +62,7 @@ trips_unioned as (
         trip_type,
         service_type,
         payment_type,
-        congestion_surcharge,
+        congestion_surcharge
     from yellow_tripdata
 ),
 dim_zones as (
