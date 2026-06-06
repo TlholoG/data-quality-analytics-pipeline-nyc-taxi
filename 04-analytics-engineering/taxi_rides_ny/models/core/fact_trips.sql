@@ -71,7 +71,7 @@ dim_zones as (
 )
 
 select
-    t.*,
+    t.* ,
 
     -- pickup zone columns
     pickup_zone.location_id as pickup_location_id_dim,
