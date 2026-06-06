@@ -1,13 +1,4 @@
-version: 2
-
-sources:
-  - name: staging
-    database: zoom-camp-495319
-    schema: nytaxi
-
-    tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+version: 2      
 
 models:
   - name: stg_green_tripdata
