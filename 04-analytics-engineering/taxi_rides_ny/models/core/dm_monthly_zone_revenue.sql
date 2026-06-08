@@ -8,7 +8,7 @@ with trips_data as (
     -- Revenue grouping
     pickup_zone_name as revenue_zone,
     {{ dbt.date_trunc("month", "pickup_datetime") }} as revenue_month,
-    -- Minimized the comment
+    
     service_type,
 
     -- Revenue calculation
@@ -26,7 +26,7 @@ with trips_data as (
     count(unique_row_id) as total_monthly_trips,
     avg(passenger_count) as avg_monthly_passenger_count,
     avg(trip_distance) as avg_monthly_trip_distance
-
+    -- Minimized the comment added experiment
     from trips_data
     group by 1,2,3
 
