@@ -8,7 +8,7 @@ with trips_data as (
     -- Revenue grouping
     pickup_zone_name as revenue_zone,
     {{ dbt.date_trunc("month", "pickup_datetime") }} as revenue_month,
-    
+    -- Production path added here
     service_type,
 
     -- Revenue calculation
